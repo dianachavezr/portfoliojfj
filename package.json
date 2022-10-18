@@ -2,7 +2,7 @@
   "name": "portfolio-react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://dianachavezr.github.io/portfoliojfj/",
+  "homepage": ".",
   "names": "portfolio",
   "dependencies": {
     "@emailjs/browser": "^3.5.0",
@@ -16,6 +16,9 @@
     "react-dom": "^17.0.2",
     "react-scripts": "^5.0.1",
     "serve": "^13.0.2",
+    "set-value": "^4.1.0",
+    "source-map": "^0.7.4",
+    "svgo": "^2.8.0",
     "sweetalert": "^2.1.2",
     "update": "^0.7.4",
     "web-vitals": "^2.1.4"
