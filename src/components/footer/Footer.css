@@ -1,6 +1,6 @@
 .footer-container {
   width: 100%;
-  height: 100vh;
+  height: auto;
   background-color:brown;
   color: white;
  padding: 40px;
@@ -30,8 +30,8 @@
 }
 
 .form-mail {
-  width: 25rem;
-  height: 40rem;
+  width: 20rem;
+  height: 28rem;
   border: groove 3px #ffff;
   border-radius: 10px;
   box-shadow: -3px -2px 1px brown;
@@ -72,6 +72,7 @@ textarea {
   color: brown;
   font-weight: 600;
   width: 90%;
+  
 }
 
 button {
@@ -139,7 +140,7 @@ button:focus {
   .footer-container {
    /* grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;*/
-    padding: 0;
+   /* padding: 0;*/
   }
   .footer {
     grid-row: 2;
@@ -163,8 +164,6 @@ button:focus {
   }
 
   .form-mail {
-    width: 15rem;
-    height: 20rem;
     border: groove 3px #ffff;
     border-radius: 10px;
     box-shadow: -3px -2px 1px brown;
@@ -295,8 +294,8 @@ button:focus {
   }
 
   .form-mail {
-    width: 20rem;
-    height: 35rem;
+  /*  width: 23rem;
+    height: 28rem;*/
     border: groove 3px #ffff;
     border-radius: 10px;
     box-shadow: -3px -2px 1px brown;
@@ -427,8 +426,8 @@ button:focus {
   }
 
   .form-mail {
-    width: 27rem;
-    height: 35rem;
+ /*   width: 27rem;*/
+  /*  height: 35rem;*/
     border: groove 3px #ffff;
     border-radius: 10px;
     background: brown;
@@ -556,8 +555,6 @@ button:focus {
   }
 
   .form-mail {
-    width: 20rem;
-    height: 28rem;
     border: groove 3px #ffff;
     border-radius: 10px;
     background: brown;
