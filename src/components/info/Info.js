@@ -64,8 +64,7 @@ const Info = () => {
             English Level B2
           </div>
         </div>
-        <br/><br/>
-        <br/><br/>
+    
         </div>
       
         <div className="curriculumb" data-aos="fade-down"
@@ -96,10 +95,10 @@ const Info = () => {
             <h4>Educación</h4>
             Titulo: Scrum Master<br />
             Completado Octubre 2022
-            <br />
+            <br /><br/>
             Titulo: Desarrollador Web Full Stack <br />
             Completado Mayo 2022
-            <br />
+            <br /><br/>
             Titulo: Administrador
             <br />
             Completado Septiembre 2001
@@ -126,7 +125,7 @@ const Info = () => {
             Ingles Nivel B2
           </div>
         </div>
-       <br/><br/>        
+             
       </div>
 
     </div>

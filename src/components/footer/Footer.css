@@ -1,17 +1,17 @@
 .footer-container {
   width: 100%;
   height: 100vh;
-  background-color: brown;
+  background-color:brown;
   color: white;
-  padding: 180px;
+ padding: 40px;
   position: fixed;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   z-index: -2;
   bottom: 0;
   left: 0;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+/*grid-template-columns: 1fr 1fr;*/
   top: 0;
   right: 0;
 }
@@ -23,7 +23,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100%;
 }
 
 .title-form {
@@ -38,7 +37,7 @@
   box-shadow: -3px -2px 1px brown;
   background: brown;
   box-shadow: -30px 30px 20px rgba(0, 0, 0, 0.5);
-  padding: 1rem;
+  padding: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -63,6 +62,7 @@ input {
   border-radius: 5px;
   color: brown;
   font-weight: 600;
+  width: 90%;
 }
 
 textarea {
@@ -71,6 +71,7 @@ textarea {
   padding: 0.5rem;
   color: brown;
   font-weight: 600;
+  width: 90%;
 }
 
 button {
@@ -136,8 +137,8 @@ button:focus {
 
 @media only screen and (max-width: 428px) {
   .footer-container {
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
+   /* grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;*/
     padding: 0;
   }
   .footer {
@@ -169,9 +170,6 @@ button:focus {
     box-shadow: -3px -2px 1px brown;
     background: brown;
     box-shadow: -10px 10px 20px rgba(0, 0, 0, 0.8);
-
-    padding: 0;
-
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -271,8 +269,8 @@ button:focus {
 
 @media only screen and (min-width: 429px) and (max-width: 744px) {
   .footer-container {
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
+   /* grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;*/
     padding: 0;
   }
   .footer {
@@ -304,9 +302,6 @@ button:focus {
     box-shadow: -3px -2px 1px brown;
     background: brown;
     box-shadow: -10px 10px 20px rgba(0, 0, 0, 0.8);
-
-    padding: 0;
-
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -406,8 +401,8 @@ button:focus {
 
 @media only screen and (min-width: 745px) and (max-width: 1023px) {
   .footer-container {
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
+    /*grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;*/
     padding: 40px 40px 20px 40px; 
   }
   .footer {
@@ -438,9 +433,6 @@ button:focus {
     border-radius: 10px;
     background: brown;
     box-shadow: -25px 20px 20px rgba(0, 0, 0, 0.8);
-
-    padding: 30px;
-
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -538,9 +530,9 @@ button:focus {
 
 @media only screen and (min-width: 1024px) and (max-width: 1512px) {
   .footer-container {
-    grid-template-rows: 1fr;
+   /* grid-template-rows: 1fr;
     grid-template-columns: 1fr 1fr;
-    padding: 40px 40px 20px 40px; 
+    padding: 40px 40px 20px 40px; */
   }
   .footer {
     grid-column: 1;
@@ -570,9 +562,6 @@ button:focus {
     border-radius: 10px;
     background: brown;
     box-shadow: -25px 20px 20px rgba(0, 0, 0, 0.8);
-
-    padding: 20px;
-
     display: flex;
     flex-direction: column;
     align-items: center;
