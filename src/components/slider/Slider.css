@@ -178,7 +178,7 @@
         justify-content: center;
         position: relative;
         
-        margin-left: 57px;
+        margin: auto;
         width: 90%;    
      }
      .sliderContainer h3{

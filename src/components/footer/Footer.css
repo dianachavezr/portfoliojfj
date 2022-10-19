@@ -3,7 +3,7 @@
   height: auto;
   background-color:brown;
   color: white;
- padding: 40px;
+  padding: 40px;
   position: fixed;
   justify-content: space-around;
   align-items: center;
@@ -14,6 +14,7 @@
 /*grid-template-columns: 1fr 1fr;*/
   top: 0;
   right: 0;
+  overflow-y: scroll;
 }
 .footer {
   width: 100%;
